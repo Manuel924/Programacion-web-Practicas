@@ -1,0 +1,191 @@
+/*
+    CSS para la segunda practica, logeo de instagram.
+    CSS for the second practice, login of instagram.
+*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-instagram{
+    width: 348px;
+    height: 365px;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+
+.logo-instagram form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-instagram form input{
+    width: 267px;
+    height: 36px;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 3px;
+}
+
+.logo-instagram form button{
+    background-color: #B2DFFC;
+    border: none;
+    border-radius: .2em;
+    width: 267px;
+    height: 36px;
+    color: white;
+    transition: all .3s;
+}
+
+.logo-instagram form button:hover{
+    cursor: pointer;
+    background: #69b0df;
+    transform: scale(1.1);
+}
+
+.separacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 267px;
+    height: 10px;
+}
+
+.letterO{
+    color: grey;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.lineas{
+    width: 111px;
+    height: 1px;
+    background: lightgrey;
+    margin-top: .25em;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 267px;
+    height: 16px;
+    margin-top: 2em;
+}
+
+.facebook img {
+    width: 14px;
+    height: 14px;
+}
+
+.facebook span{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.facebook button{
+    border: none;
+    background: white;
+    transition: all 0.1s;
+}
+
+.facebook button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.forgot-password{
+    margin-top: 1em;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.register{
+    width: 348px;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1em;
+    border: 1px solid lightgrey;
+}
+
+.register h1{
+    margin-right: .4em;
+}
+
+.register a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(81, 179, 211)
+}
+
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apps p{
+    margin-top: 1em;
+}
+
+.apps img{
+    width: 145px;
+    height: 40px;
+    margin: 20px 5px 55px 0;
+}
+
+.information{
+    padding: 0 2em;
+}
+
+.information a{
+    text-decoration: none;
+    color: rgb(151, 144, 144);
+    font-size: 14px;
+    margin: 0 .5em;
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1em 0 3em 0;
+}
+
+.derechos select{
+    width: 80px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: rgb(151, 144, 144);
+    border: none;
+    background: #FAFAFA;
+}
+
+.derechos p{
+    margin-top: 10px;
+    color: rgb(151, 144, 144);
+}
+

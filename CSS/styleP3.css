@@ -1,0 +1,144 @@
+/*
+    CSS para la tercera practica, logeo en Twitter.
+    CSS for the third practice, login in Twitter.
+*/
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 564px;
+    margin-top: 32px;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+.encabezado{
+    width: 580px;
+    height: 40px;
+}
+
+.cabecera{
+    width: 550px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.Cerrar {
+    position: absolute;
+    left: 400px;
+    cursor: pointer;
+}
+
+.Cerrar img{
+    width: 1em;
+    height: 1em;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuerpo h1{
+    margin-top: 1.5em;
+    margin-left: -3em;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Google, .Apple, .forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 318px;
+    height: 40px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-bottom: 25px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#logos{
+    margin-right: .5em;
+}
+
+.separacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 314px;
+    height: 10px;
+    margin-bottom: 1.5em;
+}
+
+.line{
+    width: 200px;
+    height: 2px;
+    background: lightgrey;
+    margin-top: .25em;
+}
+
+.letterO{
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.cuerpo input{
+    width: 314px;
+    height: 57px;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+    border: 1px solid lightgray;
+}
+
+.siguiente {
+    width: 318px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #000000;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.new-account{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -5em;
+}
+
+.new-account a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: darkcyan;
+}

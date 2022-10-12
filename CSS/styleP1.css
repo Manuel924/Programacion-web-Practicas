@@ -1,0 +1,105 @@
+/*
+    CSS para la primera practica, tarjeta de presentacion.
+    CSS for the first practice, card of presentacion.
+*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(17, 125, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.header2-background{
+    margin-top: 50px;   
+    background-color: rgb(17, 125, 158);
+    width: 430px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-radius: 1em 1em 0 0;
+}
+
+.header2-background img{
+    border-radius: 5em;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin-top: 170px;
+    border: 3px solid whitesmoke;
+}
+
+.presentation {
+    background-color: whitesmoke;
+    width: 430px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.presentation div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+.presentation div h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.presentation div p{
+    font-size: 1.6em;
+    color: rgb(133, 133, 133);
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.line{
+    font-size: 2px;
+    color: grey;
+    background: grey;
+}
+
+.pais{
+    font-size: 1.4em;
+    color: rgb(133, 133, 133);
+}
+
+.line{
+    background-color: rgb(180, 180, 180);
+    width: 430px;
+    height: 2px;
+}
+
+.datos{
+    background-color: whitesmoke;
+    width: 430px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    border-radius: 0 0 1em 1em;
+}
+
+.datos b {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.datos p{
+    margin-top: .3em;
+    color: rgb(133, 133, 133);
+}
