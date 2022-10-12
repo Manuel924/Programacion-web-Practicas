@@ -50,6 +50,10 @@ body {
     height: 1em;
 }
 
+.twitter{
+    cursor: pointer;
+}
+
 .cuerpo{
     display: flex;
     justify-content: center;
